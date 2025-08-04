@@ -57,7 +57,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Cheengu Section */}
+{/* SMS Preview Section */}
+<section className="bg-[#F9FAFB] py-16 px-6 text-center">
+  <h2 className="text-3xl font-bold mb-10">A Friend in Your Pocket</h2>
+  <div className="max-w-md mx-auto bg-white border rounded-2xl shadow-md p-6 text-left">
+    {/* Conversation Bubbles */}
+    <div className="space-y-4">
+      {/* User message */}
+      <div className="flex justify-end">
+        <div className="bg-[#E6F0FA] text-[#1A2E46] px-4 py-2 rounded-2xl rounded-br-none max-w-[75%]">
+          Hey Cheengu, kinda nervous about my interview today.
+        </div>
+      </div>
+
+      {/* Cheengu reply */}
+      <div className="flex justify-start">
+        <div className="bg-[#FF6B6B] text-white px-4 py-2 rounded-2xl rounded-bl-none max-w-[75%]">
+          You’ve got this 💙 Remember how prepared you are. One step at a time.
+        </div>
+      </div>
+
+      {/* User message */}
+      <div className="flex justify-end">
+        <div className="bg-[#E6F0FA] text-[#1A2E46] px-4 py-2 rounded-2xl rounded-br-none max-w-[75%]">
+          Thanks, I really needed that 🙏
+        </div>
+      </div>
+
+      {/* Cheengu reply */}
+      <div className="flex justify-start">
+        <div className="bg-[#FF6B6B] text-white px-4 py-2 rounded-2xl rounded-bl-none max-w-[75%]">
+          Anytime. I’ll check in later to hear how it went. You’re not alone in this.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{/* Why Cheengu Section */}
       <section className="bg-white py-16 px-6 text-center">
         <h2 className="text-3xl font-bold mb-8">Why Cheengu?</h2>
         <div className="grid gap-8 md:grid-cols-3 max-w-5xl mx-auto">
