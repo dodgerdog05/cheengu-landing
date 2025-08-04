@@ -59,6 +59,7 @@ export default function Home() {
 
 {/* SMS Preview Section */}
 {/* iPhone-style SMS Preview Section */}
+{/* iPhone-style SMS Preview Section */}
 <section className="bg-[#F9FAFB] py-16 px-6 text-center">
   <h2 className="text-3xl font-bold mb-10">A Friend in Your Pocket</h2>
 
@@ -75,6 +76,12 @@ export default function Home() {
         <span className="hidden sm:inline">Wi-Fi</span>
         <span>🔋</span>
       </div>
+    </div>
+
+    {/* Contact Header */}
+    <div className="border-b border-gray-200 py-2 text-center">
+      <h3 className="font-semibold text-sm sm:text-base">Cheengu 💙</h3>
+      <p className="text-[10px] sm:text-xs text-gray-500">AI Friend</p>
     </div>
 
     {/* Chat Area */}
