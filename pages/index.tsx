@@ -58,41 +58,58 @@ export default function Home() {
       </section>
 
 {/* SMS Preview Section */}
+{/* iPhone-style SMS Preview Section */}
 <section className="bg-[#F9FAFB] py-16 px-6 text-center">
   <h2 className="text-3xl font-bold mb-10">A Friend in Your Pocket</h2>
-  <div className="max-w-md mx-auto bg-white border rounded-2xl shadow-md p-6 text-left">
-    {/* Conversation Bubbles */}
-    <div className="space-y-4">
+
+  {/* Phone Frame */}
+  <div className="relative mx-auto w-[300px] h-[550px] bg-white border-4 border-black rounded-3xl shadow-2xl overflow-hidden">
+    {/* Top Notch */}
+    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-6 bg-black rounded-b-2xl"></div>
+
+    {/* Status Bar */}
+    <div className="flex justify-between text-xs text-gray-500 px-4 py-2">
+      <span>9:41 AM</span>
+      <div className="flex gap-1">
+        <span>📶</span>
+        <span>Wi-Fi</span>
+        <span>🔋</span>
+      </div>
+    </div>
+
+    {/* Chat Area */}
+    <div className="flex flex-col gap-3 px-4 py-6 text-sm overflow-y-auto h-full">
       {/* User message */}
       <div className="flex justify-end">
-        <div className="bg-[#E6F0FA] text-[#1A2E46] px-4 py-2 rounded-2xl rounded-br-none max-w-[75%]">
+        <div className="bg-gray-200 text-gray-900 px-3 py-2 rounded-2xl rounded-br-none max-w-[70%]">
           Hey Cheengu, kinda nervous about my interview today.
         </div>
       </div>
 
       {/* Cheengu reply */}
       <div className="flex justify-start">
-        <div className="bg-[#FF6B6B] text-white px-4 py-2 rounded-2xl rounded-bl-none max-w-[75%]">
+        <div className="bg-blue-500 text-white px-3 py-2 rounded-2xl rounded-bl-none max-w-[70%]">
           You’ve got this 💙 Remember how prepared you are. One step at a time.
         </div>
       </div>
 
       {/* User message */}
       <div className="flex justify-end">
-        <div className="bg-[#E6F0FA] text-[#1A2E46] px-4 py-2 rounded-2xl rounded-br-none max-w-[75%]">
+        <div className="bg-gray-200 text-gray-900 px-3 py-2 rounded-2xl rounded-br-none max-w-[70%]">
           Thanks, I really needed that 🙏
         </div>
       </div>
 
       {/* Cheengu reply */}
       <div className="flex justify-start">
-        <div className="bg-[#FF6B6B] text-white px-4 py-2 rounded-2xl rounded-bl-none max-w-[75%]">
+        <div className="bg-blue-500 text-white px-3 py-2 rounded-2xl rounded-bl-none max-w-[70%]">
           Anytime. I’ll check in later to hear how it went. You’re not alone in this.
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 {/* Why Cheengu Section */}
       <section className="bg-white py-16 px-6 text-center">
