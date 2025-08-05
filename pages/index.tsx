@@ -197,8 +197,19 @@ export default function Home() {
               Reserve My Cheengu
             </button>
           </form>
+            <p className="text-xs text-gray-500 mt-4 text-center">
+              By subscribing, you agree to receive recurring SMS messages from Cheengu.
+              Message & data rates may apply. Message frequency varies. Reply STOP to
+              unsubscribe or HELP for help. No third‑party sharing. See our{" "}
+                <a href="/privacy" className="underline hover:text-blue-600">Privacy Policy
+                </a>{" "}
+                and{" "}
+                  <a href="/terms" className="underline hover:text-blue-600">Terms
+                  </a>
+              </p>
         </div>
       </section>
     </div>
   );
 }
+
