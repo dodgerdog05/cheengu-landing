@@ -201,10 +201,10 @@ export default function Home() {
               By subscribing, you agree to receive recurring SMS messages from Cheengu.
               Message & data rates may apply. Message frequency varies. Reply STOP to
               unsubscribe or HELP for help. No third‑party sharing. See our{" "}
-                <a href="/privacy" className="underline hover:text-blue-600">Privacy Policy
+                <a href="/privacy.tsx" className="underline hover:text-blue-600">Privacy Policy
                 </a>{" "}
                 and{" "}
-                  <a href="/terms" className="underline hover:text-blue-600">Terms
+                  <a href="/terms.tsx" className="underline hover:text-blue-600">Terms
                   </a>
               </p>
         </div>
