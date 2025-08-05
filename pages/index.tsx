@@ -70,14 +70,14 @@ export default function Home() {
         <button type="submit" className="w-full bg-red-500 text-white font-semibold py-2 rounded-md hover:bg-red-600">
           Reserve My Cheengu
         </button>
-          <div className="text-xs text-gray-500 mt-4 text-center max-w-md mx-auto leading-relaxed">
-            By subscribing, you agree to receive recurring SMS messages from <strong>Cheengu</strong>. 
-            Message &amp; data rates may apply. Message frequency varies. Reply 
-            <strong> STOP </strong> to unsubscribe or <strong> HELP </strong> for help. 
-            No third‑party sharing. See our 
-            <a href="/privacy" className="underline"> Privacy Policy</a> and 
-            <a href="/terms" className="underline"> Terms</a>.
-          </div>
+        <div className="text-xs text-gray-500 mt-3 text-center leading-relaxed max-w-xs mx-auto">
+          By subscribing, you agree to receive recurring SMS messages from <strong>Cheengu</strong>. 
+          Message &amp; data rates may apply. Frequency varies. 
+          Reply <strong>STOP</strong> to unsubscribe or <strong>HELP</strong> for help. 
+          No third‑party sharing. See our 
+          <a href="/privacy" className="underline ml-1">Privacy Policy</a> and 
+          <a href="/terms" className="underline ml-1">Terms</a>.
+        </div>
     </form>
   </div>
 </section>  
