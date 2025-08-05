@@ -75,8 +75,8 @@ export default function Home() {
           Message &amp; data rates may apply. Frequency varies. 
           Reply <strong>STOP</strong> to unsubscribe or <strong>HELP</strong> for help. 
           No third‑party sharing. See our 
-          <a href="/pages/privacy.tsx" className="underline ml-1">Privacy Policy</a> and 
-          <a href="/pages/terms.tsx" className="underline ml-1">Terms</a>.
+          <a href="/privacy.tsx" className="underline ml-1">Privacy Policy</a> and 
+          <a href="/terms.tsx" className="underline ml-1">Terms</a>.
         </div>
     </form>
   </div>
@@ -201,10 +201,10 @@ export default function Home() {
               By subscribing, you agree to receive recurring SMS messages from Cheengu.
               Message & data rates may apply. Message frequency varies. Reply STOP to
               unsubscribe or HELP for help. No third‑party sharing. See our{" "}
-                <a href="/pages/privacy.tsx" className="underline hover:text-blue-600">Privacy Policy
+                <a href="/privacy.tsx" className="underline hover:text-blue-600">Privacy Policy
                 </a>{" "}
                 and{" "}
-                  <a href="/pages/terms.tsx" className="underline hover:text-blue-600">Terms
+                  <a href="/terms.tsx" className="underline hover:text-blue-600">Terms
                   </a>
               </p>
         </div>
