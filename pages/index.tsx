@@ -63,29 +63,27 @@ export default function Home() {
 
   {/* Phone Frame */}
   <div className="relative mx-auto w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] h-[500px] sm:h-[550px] md:h-[600px] bg-white border-4 border-black rounded-3xl shadow-2xl overflow-hidden">
+
 {/* SMS Signup Form */}
-<form className="space-y-4">
-  <input type="text" name="phone" placeholder="Enter your phone number" className="w-full rounded-md border px-3 py-2" required />
-
-  <button type="submit" className="w-full bg-red-500 text-white font-semibold py-2 rounded-md hover:bg-red-600">
-    Reserve My Cheengu
-  </button>
-
-    {/* 📌 Required compliance notice */}
-  <p className="text-xs text-gray-600 mt-2">
-    By subscribing, you agree to receive recurring SMS messages from Cheengu, your AI companion. 
-    Message frequency: up to 3 messages per week. 
-    Reply <strong>HELP</strong> for help, <strong>STOP</strong> to cancel. 
-    Message and data rates may apply. 
-    See our 
-    <a href="/privacy" className="underline">Privacy Policy</a> and 
-    <a href="/terms" className="underline">Terms of Service</a>.
-  </p>
-</form>
+    <form className="space-y-4">
+      <input type="text" name="phone" placeholder="Enter your phone number" className="w-full rounded-md border px-3 py-2" required />
+        <button type="submit" className="w-full bg-red-500 text-white font-semibold py-2 rounded-md hover:bg-red-600">
+          Reserve My Cheengu
+        </button>
+          <div className="text-xs text-gray-500 mt-4 text-center max-w-md mx-auto leading-relaxed">
+            By subscribing, you agree to receive recurring SMS messages from <strong>Cheengu</strong>. 
+            Message &amp; data rates may apply. Message frequency varies. Reply 
+            <strong> STOP </strong> to unsubscribe or <strong> HELP </strong> for help. 
+            No third‑party sharing. See our 
+            <a href="/privacy" className="underline"> Privacy Policy</a> and 
+            <a href="/terms" className="underline"> Terms</a>.
+          </div>
+    </form>
+  </div>
+</section>  
 
 
 {/* SMS Preview Section */}
-{/* iPhone-style SMS Preview Section */}
 {/* iPhone-style SMS Preview Section */}
 <section className="bg-[#F9FAFB] py-16 px-6 text-center">
   <h2 className="text-3xl font-bold mb-10">A Friend in Your Pocket</h2>
